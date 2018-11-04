@@ -1,0 +1,11 @@
+version: "3"
+services:
+
+  web:
+    # build: .
+    image: ctftraining/sctf_2018_babysyc
+    ports:
+      - "127.0.0.1:8081:80"
+    # volumes:
+    #   - /data/challenge/logs:/var/log/nginx
+    restart: always
