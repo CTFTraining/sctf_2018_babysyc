@@ -9,3 +9,5 @@ services:
     # volumes:
     #   - /data/challenge/logs:/var/log/nginx
     restart: always
+    environment:
+      - FLAG=flag{flag_test}
